@@ -67,7 +67,9 @@ fieldset,
 img {
 	border: 0;
 }
-
+body{
+	background-color: #f2f1f0;
+}
 address,
 caption,
 cite,
@@ -273,6 +275,7 @@ body {
 	font-family: Open Sans;
 	font-size: 16px;
 	color: #707070;
+	background-color: #f2f1f0;
 }
 
 p {
@@ -617,7 +620,7 @@ a:hover,
 .lawyer-title a:hover,
 .heading-subtitle,
 .list-items li:before {
-	color: #000;
+	color: #804b15;
 }
 
 .page-head,
@@ -643,7 +646,7 @@ a:hover,
 .meta-categ a,
 .tags-single-page a,
 .practice-circle {
-	background-color: #ff6666;
+	background-color: #89281f;
 }
 
 .practice-item,
@@ -676,7 +679,7 @@ a:hover,
 .menu-nav ul,
 .scrollup i,
 .mobile-menu-holder {
-	background: #212D3A;
+	background: #f2f1f0;
 }
 
 .header-info .fa-phone,
@@ -716,7 +719,7 @@ blockquote,
 
 .menu-nav li a,
 .menu-mobile li a {
-	color: #ffffff;
+	color: #000;
 }
 
 .menu-nav li a:hover,
@@ -728,8 +731,8 @@ blockquote,
 
 .menu-nav li.current-menu-item>a,
 .menu-nav>li.current-menu-ancestor>a {
-	color: #ff6666;
-	border: 1px solid #ff6666;
+	color: #000;
+	border: 1px solid #804b15;
 }
 
 .menu-nav>li.current-menu-ancestor .sub-menu li.current-menu-ancestor>a,
@@ -787,7 +790,7 @@ a.btn-white {
 }
 
 #header-bar {
-	color: #fff;
+	color: #000;
 }
 
 .logo {
@@ -1721,7 +1724,7 @@ padding-left: 15px;
 .practice-item {
 	padding: 24px;
 	margin-bottom: 32px;
-	border: 5px solid #000;
+	border-radius:60px;
 }
 
 .practice-items-holder a:hover {
